@@ -1,184 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Cybersecurity Internships in Tunisia</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="author" content="The Cybersecurity Princess" />
-  <meta name="description" content="Cybersecurity internship companies across Tunisia – curated by The Cybersecurity Princess" />
-
-  <style>
-    :root {
-      --pink: #ff4da6;
-      --black: #0b0b0f;
-      --dark-gray: #14141a;
-      --text: #f2f2f2;
-      --muted: #b3b3b3;
-    }
-
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-      font-family: "Segoe UI", system-ui, sans-serif;
-    }
-
-    body {
-      background: linear-gradient(135deg, #0b0b0f, #14141a);
-      color: var(--text);
-      line-height: 1.6;
-    }
-
-    header {
-      text-align: center;
-      padding: 60px 20px;
-      border-bottom: 1px solid #222;
-    }
-
-    header h1 {
-      color: var(--pink);
-      font-size: 2.6rem;
-      margin-bottom: 10px;
-      letter-spacing: 1px;
-    }
-
-    header p {
-      color: var(--muted);
-      font-size: 1.1rem;
-    }
-
-    header span {
-      color: var(--pink);
-      font-weight: 600;
-    }
-
-    main {
-      max-width: 1000px;
-      margin: auto;
-      padding: 50px 20px;
-    }
-
-    section {
-      margin-bottom: 50px;
-      background: var(--dark-gray);
-      border-radius: 14px;
-      padding: 30px;
-      border-left: 5px solid var(--pink);
-    }
-
-    section h2 {
-      color: var(--pink);
-      margin-bottom: 15px;
-      font-size: 1.6rem;
-    }
-
-    ul {
-      list-style: none;
-      padding-left: 10px;
-    }
-
-    li {
-      margin-bottom: 10px;
-      padding-left: 15px;
-      position: relative;
-    }
-
-    li::before {
-      content: "▸";
-      position: absolute;
-      left: 0;
-      color: var(--pink);
-    }
-
-    footer {
-      text-align: center;
-      padding: 30px 20px;
-      border-top: 1px solid #222;
-      color: var(--muted);
-      font-size: 0.95rem;
-    }
-
-    footer a {
-      color: var(--pink);
-      text-decoration: none;
-      font-weight: 600;
-    }
-
-    footer a:hover {
-      text-decoration: underline;
-    }
-
-    .glow {
-      text-shadow: 0 0 8px rgba(255, 77, 166, 0.6);
-    }
-
-    @media (max-width: 600px) {
-      header h1 {
-        font-size: 2rem;
-      }
-    }
-  </style>
+  <meta charset="UTF-8">
+  <title>Cybersecurity Internships – Tunisia</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
-  <h1 class="glow">Cybersecurity Internships in Tunisia</h1>
-  <p>Curated & maintained by <span>@the cybersecurity princess</span></p>
+  <h1>Cybersecurity Internships in Tunisia</h1>
+  <p>Choose your governorate • curated by @the cybersecurity princess</p>
 </header>
 
 <main>
+  <div class="grid">
 
-  <section>
-    <h2>Tunis & Greater Tunis</h2>
-    <ul>
-      <li>Agence Nationale de la Sécurité Informatique (ANSSI Tunisia)</li>
-      <li>SPG Group – Security & Managed Services</li>
-      <li>Vneuron – Risk, Compliance & Security</li>
-      <li>Cloud Temple Tunisia</li>
-      <li>Tunisian Cloud</li>
-      <li>Standard Sharing Software (3S)</li>
-      <li>TechPro TN</li>
-      <li>Smart Conseil (Ariana)</li>
-      <li>6NLG (Raoued)</li>
-    </ul>
-  </section>
+    <div class="card"><a href="governorates/tunis.html">Tunis</a></div>
+    <div class="card"><a href="governorates/ariana.html">Ariana</a></div>
+    <div class="card"><a href="governorates/ben-arous.html">Ben Arous</a></div>
+    <div class="card"><a href="governorates/manouba.html">Manouba</a></div>
+    <div class="card"><a href="governorates/bizerte.html">Bizerte</a></div>
+    <div class="card"><a href="governorates/nabeul.html">Nabeul</a></div>
 
-  <section>
-    <h2>Sousse</h2>
-    <ul>
-      <li>Secmentis – Cybersecurity & Penetration Testing</li>
-      <li>Local IT service providers with SOC / network security teams</li>
-    </ul>
-  </section>
+    <div class="card"><a href="governorates/beja.html">Béja</a></div>
+    <div class="card"><a href="governorates/jendouba.html">Jendouba</a></div>
+    <div class="card"><a href="governorates/zaghouan.html">Zaghouan</a></div>
+    <div class="card"><a href="governorates/siliana.html">Siliana</a></div>
+    <div class="card"><a href="governorates/kef.html">Le Kef</a></div>
 
-  <section>
-    <h2>Sfax</h2>
-    <ul>
-      <li>FactoSecure – Cybersecurity Services</li>
-      <li>Industrial IT firms with OT & security needs</li>
-    </ul>
-  </section>
+    <div class="card"><a href="governorates/sousse.html">Sousse</a></div>
+    <div class="card"><a href="governorates/monastir.html">Monastir</a></div>
+    <div class="card"><a href="governorates/mahdia.html">Mahdia</a></div>
+    <div class="card"><a href="governorates/kairouan.html">Kairouan</a></div>
 
-  <section>
-    <h2>Remote / Hybrid (Tunisia)</h2>
-    <ul>
-      <li>Remote SOC Analyst Internships</li>
-      <li>Junior Cybersecurity Intern (Hybrid)</li>
-      <li>Cloud Security & DevSecOps Internship Roles</li>
-    </ul>
-  </section>
+    <div class="card"><a href="governorates/kasserine.html">Kasserine</a></div>
+    <div class="card"><a href="governorates/sidi-bouzid.html">Sidi Bouzid</a></div>
 
+    <div class="card"><a href="governorates/gafsa.html">Gafsa</a></div>
+    <div class="card"><a href="governorates/sfax.html">Sfax</a></div>
+    <div class="card"><a href="governorates/gabes.html">Gabès</a></div>
+
+    <div class="card"><a href="governorates/medenine.html">Médenine</a></div>
+    <div class="card"><a href="governorates/tozeur.html">Tozeur</a></div>
+    <div class="card"><a href="governorates/kebili.html">Kebili</a></div>
+    <div class="card"><a href="governorates/tataouine.html">Tataouine</a></div>
+
+  </div>
 </main>
 
 <footer>
-  <p>
-    Built with 🖤 + 💖 by  
-    <a href="https://www.instagram.com/thecybersecurityprincess" target="_blank">
-      @the cybersecurity princess
-    </a>
-  </p>
-  <p>© 2026 – Cybersecurity Education & Awareness</p>
+  Built by <a href="https://www.instagram.com/thecybersecurityprincess" target="_blank">
+    @the cybersecurity princess
+  </a>
 </footer>
 
 </body>
